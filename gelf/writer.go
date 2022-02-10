@@ -23,6 +23,7 @@ type GelfWriter struct {
 	hostname string
 	Facility string // defaults to current process name
 	proto    string
+	ServiceName string // service name to add for elk
 }
 
 // Close connection and interrupt blocked Read or Write operations
