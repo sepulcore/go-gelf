@@ -147,7 +147,7 @@ func constructMessage(p []byte, hostname string, facility string, file string, l
 		Extra: map[string]interface{}{
 			"_file": file,
 			"_line": line,
-			"service_name": 
+			"service_name": serviceName
 		},
 	}
 
